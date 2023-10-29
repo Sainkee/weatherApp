@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="row">
+        <section class="col-md-4 col-sm-10" id="info-section">
+          <h1>Weather app</h1>
+          <p>
+            coded with <i class="fa fa-heart" style="color: red;"></i>
+            by
+            <a href="sainkee.github.io" target="_blank">sainkee kesharwani</a>
+          </p>
+
+          <div class="output">
+            <h3 id="cityOutput"></h3>
+            <p id="description"></p>
+            <p id="wind"></p>
+            <p id="temp"></p>
+          </div>
+        </section>
+        <section class="col-md-8 col-sm-10" id="input-section">
+         <div class="forms"> <input type="text" placeholder="Enter city name..." id="inputText"/>
+          <button id="submitbtn">Submit</button>
+        </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
